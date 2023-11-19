@@ -1,3 +1,4 @@
+
 const { proto, generateWAMessage, areJidsSameUser } = require('@adiwajshing/baileys')
 
 module.exports = {
