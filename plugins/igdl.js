@@ -2,7 +2,7 @@ let fetch = require('node-fetch')
 const instagramGetUrl = require('instagram-url-direct')
 const { instagramdl, instagramdlv2, instagramdlv3, instagramdlv4 } = require('@bochilteam/scraper')
 let handler = async (m, { conn, args, command, usedPrefix }) => {
-if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command}* https://www.instagram.com/reel/Cc0NuYBg8CR/?utm_source=ig_web_copy_link` 
+if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸NGRESE UN ENLACE DE INSTAGRAM: ${usedPrefix + command}* https://www.instagram.com/reel/Cc0NuYBg8CR/?utm_source=ig_web_copy_link` 
 await m.reply(`*[❗] ᴅᴇsᴄᴀʀɢᴀɴᴅᴏ sᴜ ᴠɪᴅᴇᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ ᴘᴏʀ ғᴀᴠᴏʀ, ᴇsᴛᴇ ᴘʀᴏᴄᴇsᴏ ᴘᴜᴇᴅᴇ ᴅᴜʀᴀʀ ᴇɴᴛʀᴇ 2 ʏ 10 ᴍɪɴᴜᴛᴏs ᴅᴇᴘᴇɴᴅɪᴇɴᴅᴏ ᴅᴇ ʟᴀ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇʟ ᴠɪᴅᴇᴏ...*`)
 try {
 let human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`)
@@ -27,7 +27,7 @@ if (!resultssss || resultssss == '' || resultssss == null) resultssss = `${SEXO}
 let txt3 = `🔗 *Url:* ${shortUrl3}`.trim()
 for (const { url } of resultssss) await conn.sendFile(m.chat, url, 'error.mp4', txt3, m)
 } catch {
-await await m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾, 𝚂𝙸 𝙴𝙻 𝙴𝚁𝚁𝙾𝚁 𝚂𝙸𝙶𝚄𝙴, 𝙿𝚁𝚄𝙴𝙱𝙴 𝙲𝙾𝙽 𝙾𝚃𝚁𝙰 𝙾𝙿𝙲𝙸𝙾𝙽 (${usedPrefix}ig, ${usedPrefix}ig2, ${usedPrefix}ig3)*`)
+await await m.reply(`*[❗𝐈𝐍𝐅𝐎❗] ERROR INTENTE DE NUEVO, SI EL ERROR SIGUE INTENTE CON OTRO COMANDO (${usedPrefix}ig, ${usedPrefix}ig2, ${usedPrefix}ig3)*`)
 }}}}
 handler.command =/^(instagram|ig(dl)?)$/i
 module.exports = handler
