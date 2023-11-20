@@ -3,7 +3,7 @@ let fetch = require('node-fetch')
 let { ytmp4, ytmp3, ytplay, ytplayvid } = require('../lib/youtube')
 let { youtubedl, youtubedlv2, youtubedlv3 } = require('@bochilteam/scraper')
 let handler = async (m, { conn, command, text, args }) => {
-if (!text) return m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 / 𝙻𝙸𝙽𝙺 𝙳𝙴 𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴*`)
+if (!text) return m.reply(`*[❗𝐈𝐍𝐅𝐎❗] INSERTAR EL COMANDO MAS EL ENLACE / LINK DE VIDEO DE YOUTUBE*`)
 /*try {
 let AAaaAA = await ytmp3(args[0])  
 conn.sendMessage(m.chat, { audio: { url: AAaaAA.result }, fileName: `error.mp3`, mimetype: 'audio/mp4' }, { quoted: m })
@@ -23,7 +23,7 @@ let lolh = await lolhuman.json()
 let n = lolh.result.title || 'error'
 await conn.sendMessage(m.chat, { audio: { url: lolh.result.link }, fileName: `${n}.mp3`, mimetype: 'audio/mp4' }, { quoted: m })
 } catch {
-m.reply(`*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝙰𝚄𝙳𝙸𝙾*`)
+m.reply(`*[❗] NO PUEDE SER OTRO ERROR, ESTE BOT ESTA LLENO DE FALLAS PERO BUENO INTENTE DE NUEVO*`)
 }}} //}
 handler.command = /^(getaud|ytmp3.2|yta.2|ytmp3|yta)$/i
 module.exports = handler
