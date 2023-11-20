@@ -1,15 +1,15 @@
 //============= Datos del Bot =============//
 
-global.owner = ['59894808483', '5214531106422', '5219996125657', '5492266466080']
+global.owner = ['595994110242', '527294888993', '52197', '54']
 global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '𝕊𝕚𝕞𝕡𝕝𝕖𝔹𝕠𝕥'
-global.wm = '𝕊𝕚𝕞𝕡𝕝𝕖𝔹𝕠𝕥'
+global.author = 'AGROMOSBOT'
+global.wm = 'AGROMOSBOT'
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 
 //============= urlButtons =============//
 
 global.textUrlbot = 'ɢɪᴛʜᴜʙ'
-global.linkUrlbot = "https://github.com/BrunoSobrino/SimpleBot"
+global.linkUrlbot = "https://github.com/TIKIof/AgromosBot"
 
 //=========================================================================//
 
