@@ -17,9 +17,9 @@ who = text ? text.replace(/[^0-9]/g, '') + '@s.whatsapp.net' : m.chat
 try {
 if (who.endsWith('g.us')) global.db.data.chats[who].isBanned = false
 else global.db.data.users[who].banned = false
-m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃 𝙵𝚄𝙴 𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾*`)
+m.reply(`*[❗𝐈𝐍𝐅𝐎❗] SE DESBANEO EL CHAT*`)
 } catch (e) {
-throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃 𝙽𝙾 𝙴𝚂𝚃𝙰 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾 𝙴𝙽 𝙻𝙰 𝙱𝙰𝚂𝙴 𝙳𝙴 𝙳𝙰𝚃𝙾𝚂*`
+throw `*[❗𝐈𝐍𝐅𝐎❗] ESTE CHAT NO ESTA EN MI BASE DE DATOS*`
 }}
 handler.help = ['unban']
 handler.tags = ['owner', 'group']
