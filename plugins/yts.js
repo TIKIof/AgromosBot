@@ -1,3 +1,4 @@
+
 let yts = require('yt-search')
 let handler = async (m, { text }) => {
 if (!text) return m.reply('Cari apa?')
