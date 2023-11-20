@@ -2,11 +2,15 @@ let handler = async (m, { conn }) => {
 let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
 m.reply(`
-*┌─〔 ＡＣＴＩＶＯ 〕*
-*├ 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
-*└───────────────*
+*ミ💚 Hola estimado usuario 💚彡*
+
+*ミ😈 Estado del bot 😈彡*
+*=> Bot activo para tus servicios😈🔥*
+*=> Bot  para cualquier uso😹💚* 
+*=> TIEMPO ACTIVO ${uptime}*
+
 `.trim())}
-handler.help = ['runtime']
+handler.help = ['estado']
 handler.tags = ['info']
 handler.command = /^(uptime|runtime)$/i
 module.exports = handler
