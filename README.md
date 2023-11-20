@@ -2,7 +2,7 @@
 
 ### `👑 DUDAS SOBRE EL BOT?, CONTACTANOS 👑`
 <a href="http://wa.me/595" target="blank"><img src="https://img.shields.io/badge/SNT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-<a href="http://wa.me/521524531106422" target="blank"><img src="https://img.shields.io/badge/@Azami19-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="http://wa.me/521524531106422" target="blank"><img src="https://img.shields.io/badge/Azami-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
 ### `—◉ 🔗 CUENTAS OFICIALES 🔗`
 
