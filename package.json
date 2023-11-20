@@ -1,7 +1,7 @@
 {
-    "name": "SimpleBot",
+    "name": "AGROMOSBOT",
     "version": "1.0.0",
-    "description": "Subscribete al canal de YT The Shadow Borkers",
+    "description": "Subscribete al canal de YT Agromos Bot",
     "depecrated": false,
     "main": "index.js",
     "directories": {
